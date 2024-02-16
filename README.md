@@ -25,3 +25,10 @@ PUT    | /user/profile    | YES   | user | Update own Profile       |    `name`,
 PUT    |/user/me/password | YES   | admin| Change Own Password      |    `password`                                   | { message: `string`, result: `object` }
 DELETE | /user/:id        | YES   | admin| Delete One User          |    `name`, `email`, `password`, `role           | { message: `string`, result: `object` }
 DELETE | /user/profile    | YES   | user | Update Own Profile       |    `name`, `email`, `password`, `role           | { message: `string`, result: `object` }
+
+### Movie Endpoints
+
+METHOD | ENDPOINT         | TOKEN | ROLE | DESCRIPTION              | POST PARAMS                                     | RETURNS
+-------|------------------|-------|------|--------------------------|-------------------------------------------------|--------------------
+GET    | /movie           | YES   | user | Get All Users            |                                                 | { message: `string`, result: `array` }
+GET    | /movie/:id       | YES   | user | Get One User             |                                                 | { message: `string`, result: `object` }
