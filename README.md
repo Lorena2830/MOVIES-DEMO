@@ -1,5 +1,5 @@
-# MOVIES-DEMO
-# movies-demo
+# WaveStay-demo
+# WaveStay-demo
 
 ### Authentication Endpoints
 
